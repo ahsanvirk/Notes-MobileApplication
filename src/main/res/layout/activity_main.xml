@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFDAB9"
+    android:layout_height="match_parent"
+    tools:context="com.example.p4cis436.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment2"
+        class="com.example.p4cis436.fragment2"
+        android:layout_width="348dp"
+        android:layout_height="395dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment1"
+        app:layout_constraintVertical_bias="0.949"
+        tools:layout="@layout/fragment_fragment2" />
+
+    <fragment
+        android:id="@+id/fragment1"
+        class="com.example.p4cis436.fragment1"
+        android:layout_width="406dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_fragment1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

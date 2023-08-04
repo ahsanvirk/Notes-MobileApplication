@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/widgetbutton"
+        android:layout_width="287dp"
+        android:layout_height="113dp"
+        android:background="@drawable/download" />
+
+    <FrameLayout
+        android:layout_width="390dp"
+        android:layout_height="595dp">
+
+        <ListView
+            android:id="@+id/stacks"
+            android:layout_width="235dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="85dp"
+            android:loopViews="true" />
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="223dp"
+            android:layout_height="214dp"
+            android:layout_marginLeft="85dp"
+            android:background="#FFE4E1"
+            android:text="Empty"
+            android:textColor="#D50000"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </FrameLayout>
+</LinearLayout>
